@@ -1,0 +1,228 @@
+.App {
+    text-align: center;
+  }
+
+.App-header {
+background-image: linear-gradient(to right, #00d7b9, #0000a0);
+/* background-color: #5bb8ff; */
+min-height: 110vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(5px + 2vmin);
+color: white;
+
+
+
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-weight: bolder;
+}
+
+
+
+.login-text{
+  margin-top: 10px;
+  color: white;
+}
+/* @font-face {
+  font-family: "CustomFont";
+  src: url("../fonts/RolexLight.woff2");
+} */
+
+/* --------------------------- MOBILE VERSION ------------------------------ */
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75em;
+}
+
+.container {
+  width: 5em;
+  height: 2em;
+  padding: 50px;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #409fc2, #d5e3e8);
+  background-color: transparent;
+  
+
+  
+}
+
+
+.btn-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.user-login-icon{
+  font-size: 20px;
+  color: black;
+}
+.heading{
+  font-size: 90px;
+  color: #0000a0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 40px;
+  background: linear-gradient(to right,skyblue, #00d7b9); 
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+}
+.alt-login {
+  width: 80%;
+  height: 3em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.alt-login div {
+  width: 47.5%;
+  height: 90%;
+  border-radius: 0.25em;
+  background-color: black;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* .google {background-image: url("../icons/google.png");}
+.facebook {background-image: url("../icons/facebook.png");} */
+
+.input-box {
+  border: thick;
+  background-color: rgb(212, 206, 206);
+  width: 80%;
+  border-radius: 0.25em;
+  text-align: left;
+  padding: 10px;
+  font-size: 0.55em;
+  margin: 15px;
+}
+
+.input-box:focus {
+  outline-color: rgb(32, 177, 255);
+}
+
+.login-btn {
+  width: 40%;
+  height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  border-radius: 0.25em;
+  cursor: pointer;
+  color: black;
+  margin: 10px;
+  background-color: #db8196;  
+  text-align: center;
+  background-image: linear-gradient(to left, #00d7b9, #0000a0);
+  text-decoration: none;
+}
+
+
+
+.pwd-policy{
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+  color: white;
+}
+
+.pwd-policy:hover { transform: scale(1.05);}
+
+.login-icon{
+  border: none;
+  background: transparent;
+  text-decoration: underline;
+  font-size: 23px;
+  color: white;
+  margin-top: 15px;
+}
+
+.login-icon:hover { transform: scale(1.25);}
+
+.text {
+  position: relative;
+  bottom: 0.5%;
+  color: black;
+  margin: 15px;
+  font-size: 15px;
+}
+
+
+.hide {
+  position: absolute;
+  transform: scale(0);
+}
+
+.login-popup {
+  position: absolute;
+  height: 30em;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.25em;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  transform: scale(1);
+  transition: 1.5s;
+}
+
+/* .blue {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-image: url('../icons/google.png'); */
+
+
+/* -------------------- TABLET OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 37em) {
+  .page {
+      font-size: 1em;
+  }
+
+  .container {
+      width: 60%;
+      height: 70%;
+  }
+}
+
+/* -------------------- DESKTOP OPTIMIZATION -------------------- */
+@media only screen and (min-device-width: 64em) {
+  .page {
+      font-size: 1.25em;
+  }
+
+  .container {
+      width: 25%;
+      height: 65%;
+  }
+}
+
+.mars-logo{
+  width: 250px;
+  height: 250px;
+}

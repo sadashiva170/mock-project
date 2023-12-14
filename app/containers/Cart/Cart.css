@@ -1,0 +1,168 @@
+    .active-tab {
+    background-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+    border-radius: 5px;
+    width: 100px;
+    margin: 15px;
+  }
+  
+  .inactive-tab {
+    background-color: white;
+    color: yellow;
+    padding: 3%;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 100px;
+    margin: 15px;
+  }
+.cart-container{
+    /* background-color: #6bbcf5;     */
+    /* background-image: linear-gradient(to left, skyblue, #00d7b9); */
+    /* background-image: url('/home/purumshiva/Downloads/react-boilerplate-master/app/images/stars11.jpg'); */
+    background-color:#6f8180de ;
+    height: 100vh;
+}
+  
+.cart-btn{
+    flex: 9;
+     margin:80px;
+    padding:3%;
+    border-Radius:15px;
+    font-size: 20px;
+    box-shadow: 10px 15px 15px 0px black;
+    background-color:#0a7579 ;
+    margin-top: 8rem;
+}
+.cart-btn:hover{
+    transform: scale(1.15);
+    color: black;
+}
+.cart-btn:focus{
+    color: white;
+    box-shadow: 3px 8px 8px 0px white;
+}
+.nav-style{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 8vh;
+    background:#0a7579 ;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+table, tr, th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 4%;
+    width: 500px;
+}
+.table-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+th{
+    background-color:grey;
+}
+td{
+    background-color: white;
+}
+.nav-link{
+    /* color:white;
+    text-decoration: none;
+    margin: 5%;
+    border: 1px solid black; */
+    color: black;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    text-decoration: none;
+    position: absolute;
+    left: 5%;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-link2{
+    /* color:white;
+    text-decoration: none;
+    margin: 5%;
+    border: 1px solid black; */
+    color: black;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:30px;
+    text-decoration: none;
+    position: absolute;
+    left: 10%;
+}
+.nav-link2:hover{
+    color: white;
+}
+
+.nav-items{
+margin-left: 10%;
+}
+
+.logout-btn{
+    color: black;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    position: absolute;
+    left: 91%;
+}
+.logout-btn:hover{
+    color: white;
+}
+.image{
+    width: 70px;
+    height: 70px;
+    margin-left: 1.5rem;
+
+}
+.toggle-off{
+
+margin-left: 1.5rem;
+border: 1.5rem;
+border-radius: 20px;
+width: 4%;
+text-align: right;
+font-size: 25px;
+padding: 0.3%;
+background-color: white;
+border: 2px solid black;
+}
+.toggle-on{
+
+    margin-left: 1.5rem;
+    border: 1.5rem;
+    border-radius: 20px;
+    width: 4%;
+    text-align: left;
+    font-size: 22px;
+    padding: 0.3%;
+    background-color: transparent;
+    border: 2px solid black;
+    
+
+    }
+.toggle-on:focus{
+    background-color: black;
+}
+.image2{
+    width: 250px;
+    height: 95px;
+    position: absolute;
+    left: 40%;
+    position: fixed;
+
+}
